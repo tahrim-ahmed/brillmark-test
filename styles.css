@@ -1399,6 +1399,7 @@ header {
         display: flex;
         list-style: none;
         justify-content: space-around;
+        padding-left: 0;
     }
 
     .second-column-items-mobile ul li {
@@ -1431,6 +1432,7 @@ header {
         justify-content: space-around;
         margin-bottom: 0;
         padding-bottom: 30px;
+        padding-left: 0;
     }
 
     .third-column-items-mobile ul li {
