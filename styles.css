@@ -1155,6 +1155,40 @@ header {
     font-size: 10px;
 }
 
+@media (max-width: 1200px) {
+    .client-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 1140px) {
+    .client-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media (max-width: 770px) {
+    .client-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .clients {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .clients ul {
+        display: block;
+    }
+
+    .clients ul li {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
 /* Client Section End */
 
 /* -------------------- */
