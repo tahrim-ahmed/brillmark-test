@@ -305,7 +305,9 @@ header {
         width: 100%;
         flex-direction: column;
         background: #ffffff;
-        margin: 0 auto;
+        margin: 0;
+        padding-left: 0;
+
     }
 
     .navbar-section ul li a {
