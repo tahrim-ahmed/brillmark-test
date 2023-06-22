@@ -1041,6 +1041,10 @@ header {
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .quality-services {
+        width: 80%;
+    }
 }
 
 @media (max-width: 1140px) {
@@ -1083,6 +1087,22 @@ header {
 
     .contact-button3 {
         margin: 0 auto;
+    }
+
+    .subs-text {
+        width: 100%;
+    }
+
+    .subscribe-text {
+        text-align: center;
+    }
+
+    .email-text {
+        text-align: center;
+    }
+
+    .subs-image {
+        display: none;
     }
 }
 
