@@ -554,6 +554,16 @@ header {
     border-left: 3px solid #f6ba00;
 }
 
+@media (max-width: 550px) {
+    .service-tab.active {
+        border-left: none;
+    }
+
+    .service-tab:hover {
+        border-left: none;
+    }
+}
+
 @media (max-width: 1200px) {
     .service-tabs {
         padding-left: 10%;
