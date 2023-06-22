@@ -555,6 +555,11 @@ header {
 }
 
 @media (max-width: 550px) {
+    .service-tabs ul {
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+
     .service-tab.active {
         border-left: none;
     }
