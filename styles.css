@@ -522,6 +522,14 @@ header {
     margin: 0;
 }
 
+@media (max-width: 550px) {
+    .service-tabs-box {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+}
+
 .service-tabs ul {
     display: flex;
     list-style: none;
