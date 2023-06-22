@@ -92,10 +92,7 @@ header {
     font-size: 15px;
     font-weight: bold;
     color: #1f282f;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 25px;
-    margin-left: 15px;
+    margin: 10px 25px 10px 15px;
 }
 
 .navbar-section ul {
@@ -179,12 +176,8 @@ header {
     }
 
     .navbar-section ul li a {
-        display: block;
         width: auto;
         font-size: 0.8rem;
-        font-weight: bold;
-        text-decoration: none;
-        color: #1f282f;
         margin-top: 0;
         margin-bottom: 0;
         padding-right: 0;
@@ -712,8 +705,7 @@ header {
 
     .building-list ul {
         width: 346px;
-        margin: 0 auto;
-        margin-bottom: 40px;
+        margin: 0 auto 40px;
     }
 
     .contact-button2 {
@@ -856,6 +848,10 @@ header {
     font-weight: bold;
 }
 
+.testimonial-box-3-mobile, .testimonial-box-4-mobile {
+    display: none;
+}
+
 .testimonial-image {
     height: 360px;
 }
@@ -948,6 +944,51 @@ header {
 
     .testimonial-content {
         padding-bottom: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .testimonial-content {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+    .testimonial-box-1, .testimonial-box-2 {
+        width: auto;
+        padding: 20px;
+        margin: 20px 2rem 65px 2rem;
+    }
+
+    .testimonial-box-3, .testimonial-box-4 {
+        display: none;
+    }
+
+    .testimonial-box-3-mobile, .testimonial-box-4-mobile {
+        display: block;
+        background: #ffffff;
+        width: auto;
+        margin: 20px 2rem 65px 2rem;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .testimonial-box-3-mobile-header, .testimonial-box-4-mobile-header {
+        display: flex;
+    }
+
+    .testimonial-box-3-mobile-header-image, .testimonial-box-4-mobile-header-image {
+        background: #c2ced4;
+        margin-top: -35px;
+        padding: 18px;
+    }
+
+    .testimonial-box-3-mobile-header-name, .testimonial-box-4-mobile-header-name {
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .testimonial-image {
+        display: none;
     }
 }
 
@@ -1170,6 +1211,7 @@ header {
         padding-right: 2%;
     }
 }
+
 @media (max-width: 770px) {
     .client-section {
         padding-left: 2%;
