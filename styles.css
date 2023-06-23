@@ -997,6 +997,10 @@ header {
         padding-right: 0;
     }
 
+    .consultant-text .br {
+        display: none;
+    }
+
     .contact-button-cons {
         display: none;
     }
