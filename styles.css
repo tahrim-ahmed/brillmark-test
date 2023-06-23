@@ -11,7 +11,11 @@
     padding-left: 13%;
     padding-right: 13%;
     text-align: right;
-    color: #ffffff;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Responsive */
@@ -307,7 +311,6 @@ header {
         background: #ffffff;
         margin: 0;
         padding-left: 0;
-
     }
 
     .navbar-section ul li a {
@@ -1099,7 +1102,7 @@ header {
     height: 290px;
     position: absolute;
     margin-top: -86px;
-    margin-left: 165px;
+    margin-left: 157px;
     z-index: 1;
     opacity: 20%;
 }
